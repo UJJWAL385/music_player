@@ -1,0 +1,19 @@
+.screen-container {
+    width: calc(100% - 100px);
+    height: 100%;
+    overflow-y: auto;
+    background-color: #1E2A3E;
+    border-radius: 30px;
+    background-color: #1E2A3E;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( circle at center left, transparent 0, #1E2A3E 100px ), 
+    repeating-linear-gradient( #23365656, #233656 );
+}
+
+.screen-container::-webkit-scrollbar {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}

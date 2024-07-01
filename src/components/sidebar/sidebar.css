@@ -1,0 +1,25 @@
+.sidebar-container {
+    width: 100px;
+    height: 100%;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+.profile-img {
+    width: 70px;
+    height: 70px;
+    border-radius:100px;
+    filter: drop-shadow(1px 1px 20px rgba(11, 26, 238, 0.875));
+    margin-top: 20px;
+    border: 1px solid rgb(88, 82, 243);
+
+}
+
+/* .sidebar-button {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+} */
